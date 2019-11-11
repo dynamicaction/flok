@@ -2,7 +2,7 @@ ESLINT = node ./node_modules/.bin/eslint
 MOCHA = node ./node_modules/mocha/bin/mocha
 
 TESTS = test/*.js
-SRC = $(shell find bin lib test -type f -name "*.js")
+SRC = $(shell find bin lib -type f -name "*.js")
 
 REPORTER ?= spec
 
@@ -14,7 +14,6 @@ clean:
 
 lint:
 	$(ESLINT) $(SRC)
-	$(ESLINT) $(TESTS)
 
 test:
 	rm -Rf test/migrations/flokStatus/
