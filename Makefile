@@ -1,4 +1,4 @@
-JSHINT = node ./node_modules/.bin/jshint
+ESLINT = node ./node_modules/.bin/eslint
 MOCHA = node ./node_modules/mocha/bin/mocha
 
 TESTS = test/*.js
@@ -13,8 +13,8 @@ clean:
 	npm prune
 
 lint:
-	$(JSHINT) $(SRC)
-	$(JSHINT) $(TESTS)
+	$(ESLINT) $(SRC)
+	$(ESLINT) $(TESTS)
 
 test:
 	rm -Rf test/migrations/flokStatus/
