@@ -5,7 +5,7 @@
     "type": "git",
     "url": "git://github.com/dynamicaction/flok.git"
   },
-  "version": "3.0.3",
+  "version": "4.0.0",
   "author": "Sean Garner <seanlgarner@gmail.com>",
   "description": "Controlled migrations",
   "bin": "./bin/flok",
