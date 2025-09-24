@@ -41,9 +41,6 @@
                     <defaultDirmode>755</defaultDirmode>
                     <defaultUsername>root</defaultUsername>
                     <defaultGroupname>root</defaultGroupname>
-                    <requires>
-                        <require>nodejs &gt; 0.8.0</require>
-                    </requires>
                     <mappings>
                         <mapping>
                             <directory>/opt/ecommera/flok</directory>
